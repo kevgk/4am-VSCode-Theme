@@ -1,0 +1,36 @@
+{
+    "name": "4am-theme",
+    "displayName": "4am Theme",
+    "description": "A dark and pretty Theme for late coding hours.",
+    "version": "0.1.0",
+    "publisher": "kevgk",
+    "scripts": {
+        "build": "gulp build"
+    },
+    "engines": {
+        "vscode": "^1.26.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "4am",
+                "uiTheme": "vs-dark",
+                "path": "./4am.json"
+            },
+            {
+                "label": "4am Blue",
+                "uiTheme": "vs-dark",
+                "path": "./4am Blue.json"
+            }
+        ]
+    },
+    "devDependencies": {
+        "gulp": "^3.9.1",
+        "gulp-json-replace": "^1.0.9",
+        "gulp-strip-comments": "^2.5.2"
+    },
+    "dependencies": {}
+}
